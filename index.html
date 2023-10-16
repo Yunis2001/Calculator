@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <div class="container">
   <form action="calculator" name ="calc">
@@ -26,8 +28,7 @@
     <span class ="num" onclick="calc.txt.value+='00'"><i>00</i></span>
     <span class ="num" onclick="calc.txt.value+='.'"><i>.</i></span>
 
-    <span class ="num" onclick="document.calc.txt.value= eval(calc.txt.value)
-    "> <i>=</i></span>
+    <span class ="num" onclick="document.calc.txt.value= eval(calc.txt.value)"> <i>=</i></span>
   
   </form>
 </div>
